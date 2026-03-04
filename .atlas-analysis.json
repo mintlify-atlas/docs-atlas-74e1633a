@@ -1,0 +1,83 @@
+{
+  "projectType": "frontend",
+  "projectName": "Luan Nguyen Portfolio",
+  "projectDescription": "A modern, Spotify-inspired personal portfolio website built with Next.js, showcasing projects, experience, and blog posts.",
+  "theme": "willow",
+  "primaryColor": "#040404",
+  "lightColor": "#1DB954",
+  "darkColor": "#191414",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": ["introduction", "quickstart"]
+      },
+      {
+        "group": "Architecture",
+        "pages": ["architecture/overview", "architecture/tech-stack", "architecture/project-structure"]
+      },
+      {
+        "group": "Components",
+        "pages": [
+          "components/overview",
+          "components/profile-card",
+          "components/projects",
+          "components/experience",
+          "components/github-contributions",
+          "components/blog-system",
+          "components/ui-components"
+        ]
+      },
+      {
+        "group": "Customization",
+        "pages": [
+          "customization/theming",
+          "customization/styling",
+          "customization/content",
+          "customization/configuration"
+        ]
+      },
+      {
+        "group": "Deployment",
+        "pages": ["deployment/docker", "deployment/environment", "deployment/production"]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Spotify-inspired dark theme design",
+    "Responsive component-based architecture",
+    "Markdown-based blog system with custom styling",
+    "Project showcase with rich metadata",
+    "GitHub contributions calendar integration",
+    "Professional experience timeline",
+    "Lazy-loaded sections for performance",
+    "Framer Motion animations",
+    "Vercel Analytics integration",
+    "Docker containerization support"
+  ],
+  "publicApiSurface": [
+    "ProfileCard component",
+    "Projects component",
+    "ExperienceItems component",
+    "GithubContributions component",
+    "BlogPostCard component",
+    "BlogPostContent component",
+    "SpotifyAlbum component",
+    "ProgrammingLanguages component",
+    "Navigation component",
+    "MobileNav component",
+    "Footer component",
+    "SocialLinks component",
+    "Spotlight UI component",
+    "TypeWriterEffect UI component",
+    "MovingBorder UI component",
+    "StickyScrollReveal UI component",
+    "InfiniteMovingCars UI component",
+    "BackgroundGradient UI component",
+    "getSortedPostsData() - Blog data fetcher",
+    "getPostData(slug) - Single post fetcher",
+    "getAllPostSlugs() - Post slug generator",
+    "personalProjects data structure",
+    "experienceLists data structure"
+  ]
+}
